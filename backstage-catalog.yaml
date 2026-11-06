@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "pulumi-litellm"
+  description: "A Litellm Pulumi resource package"
+spec:
+  type: "library"
+  lifecycle: production
+  owner: "group:default/team-domain-sre"
+  system: prima.it
