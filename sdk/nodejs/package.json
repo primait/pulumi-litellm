@@ -1,6 +1,6 @@
 {
     "name": "@pulumi/litellm",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "pulumi provider of the litellm TF provider github.com/BerriAI/terraform-provider-litellm",
     "keywords": [
         "litellm",
@@ -16,13 +16,13 @@
         "@pulumi/pulumi": "^3.269.0"
     },
     "devDependencies": {
-        "@types/node": "^26",
-        "typescript": "^7.0.2"
+        "@types/node": "^20",
+        "typescript": "^4.7.0"
     },
     "pulumi": {
         "resource": true,
         "name": "litellm",
-        "version": "0.0.1",
+        "version": "0.1.0",
         "server": "github://api.github.com/primait/pulumi-litellm"
     }
 }
